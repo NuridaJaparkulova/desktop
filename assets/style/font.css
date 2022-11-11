@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/');
+    src: url('../font/?#iefix') format('embedded-opentype'),
+        url('../font/LibreFranklin-Regular.woff2') format('woff2'),
+        url('../font/LibreFranklin-Regular.woff') format('woff'),
+        url('../font/LibreFranklin-Regular.ttf') format('truetype'),
+        url('../font/LibreFranklin-Regular.svg#LibreFranklin-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-Bold.eot');
+    src: url('../font/LibreFranklin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/LibreFranklin-Bold.woff2') format('woff2'),
+        url('../font/LibreFranklin-Bold.woff') format('woff'),
+        url('../font/LibreFranklin-Bold.ttf') format('truetype'),
+        url('../font/LibreFranklin-Bold.svg#LibreFranklin-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tenor Sans';
+    src: url('../font/TenorSans.eot');
+    src: url('../font/TenorSans.eot?#iefix') format('embedded-opentype'),
+        url('../font/TenorSans.woff2') format('woff2'),
+        url('../font/TenorSans.woff') format('woff'),
+        url('../font/TenorSans.ttf') format('truetype'),
+        url('../font/TenorSans.svg#TenorSans') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('../font/SourceSerifPro-Regular.eot');
+    src: url('../font/SourceSerifPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/SourceSerifPro-Regular.woff2') format('woff2'),
+        url('../font/SourceSerifPro-Regular.woff') format('woff'),
+        url('../font/SourceSerifPro-Regular.ttf') format('truetype'),
+        url('../font/SourceSerifPro-Regular.svg#SourceSerifPro-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,39 @@
+@media (max-width:768px) {
+    .header__navs {
+         margin-right: 36px;
+    }
+    .header__svg {
+        padding-left:70px ;
+    }
+    .container {
+        max-width: 740px;
+    }
+    .hero__grids {
+        grid-template-columns: 1fr;
+    }
+    .right__grid {
+        margin-top: 20px;
+    }
+    .grid__cards {
+        grid-template-columns: 1fr 1fr ;
+
+    }
+    .grid__title {
+        font-size: 21px;
+    }
+    .grid__img img {
+        width: 360px;
+    }
+}
+@media (max-width:390px) {
+    .container {
+        max-width: 360px;
+    }
+    .left__grid__img img {
+        width: 360px;
+        height: 474px;
+    }
+    .grid__cards {
+        grid-template-columns: 1fr;
+    }
+}

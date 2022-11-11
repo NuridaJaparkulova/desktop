@@ -1,0 +1,154 @@
+@import "./font.css";
+:root {
+    --black: #000000;
+    --white:#fffff;
+}
+/* BASE CONFIG */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+body {
+    font-family: sans-serif;
+}
+button {
+    border: none;
+    background: none;
+}
+/* BASE CONFIG */
+
+/* HEADER */
+.header {
+   
+}
+.header .container {
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header__container {
+    align-items: center;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(167, 156, 156);
+}
+.header__svg {
+    padding-left: 120px;
+}
+.header__navs {
+    margin-right: 140px;
+}
+.header__nav {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    margin-right: 40px;
+}
+/* HEADER */
+
+/* SECTION HERO*/
+
+.hero {
+    padding: 60px 0 60px 0;
+}
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.hero__grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid {
+    height: 472px;
+}
+.right__elements {
+    margin-left: 51px;
+}
+.right__grid__text{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding-top: 5px;
+}
+.right__grid__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase; 
+    color: var(--black);
+    margin-top: 18px;
+}
+.right__grid__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin-top: 27px;
+
+}
+.right__grid__text2 {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase; 
+    color: #000000;
+    margin-top: 28px;
+
+}
+
+
+.grid__container {
+    height: 963px;
+    padding: 35px 0 65px 0;
+}
+.grid__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    row-gap: 74px;
+}
+.grid__img {
+    height: 254px;
+    width: 387px;
+}
+.grid__text1 {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 24px;
+    color: #999999;   
+}
+.grid__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 18px;
+    color: #000000;
+}
+.grid__desc {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: var(--black);
+}
+/* SECTION HERO*/

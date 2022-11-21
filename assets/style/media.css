@@ -11,29 +11,71 @@
     .hero__grids {
         grid-template-columns: 1fr;
     }
-    .right__grid {
-        margin-top: 20px;
+    .hero__grid__elements {
+        margin-left: -35px;
     }
-    .grid__cards {
-        grid-template-columns: 1fr 1fr ;
-
+    .news__grids {
+        grid-template-columns: 1fr 1fr;
     }
-    .grid__title {
-        font-size: 21px;
+    .latest__cards {
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    .grid__img img {
-        width: 360px;
+    .card__bottom {
+        margin-left: 266px;
     }
-}
+    .post__grids {
+        grid-template-columns: 1fr;
+    }
+    .footer__grids {
+        grid-template-columns: 1fr;
+    }
+    .footer__grid__right {
+        margin-left: 18px;
+    }
+}    
 @media (max-width:390px) {
     .container {
-        max-width: 360px;
+        max-width: 380px;
     }
-    .left__grid__img img {
-        width: 360px;
-        height: 474px;
+    .header__link {
+        display: none;
     }
-    .grid__cards {
+    .burger__nav {
+        display: block;
+    }
+    .hero__title {
+        font-size: 18px;
+    }
+    .news__grids {
         grid-template-columns: 1fr;
+    }
+    .news__desc {
+        font-size: 14px;
+    }
+    .latest__cards {
+        grid-template-columns: 1fr;
+    }
+    .card__bottom {
+        margin-left: 80px;
+    }
+    .card__desc {
+        font-size: 14px;
+    }
+    .post__desc {
+        font-size: 15px;
+    }
+    .footer__elem {
+        display: block;
+    }
+    .footer__elem svg {
+        margin-left: 115px;
+    }
+    .footer__title {
+        margin-left: 57px;
+        margin-top: 18px;
+    }
+    .footer__grid__left {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 15px;
     }
 }
